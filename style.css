@@ -1,0 +1,55 @@
+#count{
+  color: blue;
+  font-size: 50px;
+}   
+#increment-btn{
+  border: 2px solid black;
+  padding: 6px 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  color: white;
+  background-color: rgb(93, 93, 236);
+  width: 100%;
+}
+
+#increment-btn:hover{ 
+  background-color: white;
+  color: blue;
+  transition: 0.1s;
+}
+h1{
+  text-align: center; 
+  color: rgb(250, 171, 237);
+}
+#container {
+  display: flex;
+  width: 400px;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid black;
+  background-image: url(https://th.bing.com/th/id/OIP.F_FwmSTz-ExI3XTQ6Pil5gHaEK?pid=ImgDet&rs=1);
+  opacity: 1;
+  background-blend-mode: multiply;
+}
+body{
+  background:whitesmoke;
+}   
+#save-btn{
+  border: 2px solid black;
+  padding: 6px 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  color: white;
+  background-color: rgb(93, 93, 236);
+  width: 100%;
+}
+#greetings-el{
+  color: rgb(32, 32, 36);
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center
+}
+
