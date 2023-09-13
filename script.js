@@ -46,21 +46,26 @@
 // The passenger counter app for understanding JavaScript basic functions.
 let count = 0
 let countEl = document.getElementById("count")
+let saveEL = document.getElementById("save-el")
+
 
 // this function is for the increment button.
 function incrementfnct(){
-    count = count + 1;
+    count += 1;
     countEl.innerText = count;
-    console.log(count)
     document.getElementById("count").innerHTML = count // This is called DOM function means the way to modfify the code in javascript by pushing html into Js.
 }
-//this function is for the save button.
+// function for making save function for save button / QUIZ
+
 
 function save(){
-    console.log(count)
-}
+    let resultforSave = count + " - ";
+    saveEL.textContent += " " + resultforSave
+    count = 0; // Reset the count to 0
+    countEl.innerText = count; // Update the displayed count to 0
 
-// learning string 
+}   
+// learning string      
 
 // let username = "John"
 // let message = "You have three notifications"
@@ -83,5 +88,5 @@ let userName = "Umer Alam";
 let duasalam = "Welcome back ";
 welcomeEl.innerText = duasalam + userName ;
 
+welcomeEl.innerText += "👋"
 
-welcomeEl 

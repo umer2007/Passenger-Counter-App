@@ -1,15 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 #count{
   color: blue;
   font-size: 50px;
 }   
 #increment-btn{
   border: 2px solid black;
+  border-radius: 5px;
   padding: 6px 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 400;
   color: white;
   background-color: rgb(93, 93, 236);
-  width: 100%;
+  width: 50%;
+  margin: 10px;
 }
 
 #increment-btn:hover{ 
@@ -19,7 +22,7 @@
 }
 h1{
   text-align: center; 
-  color: rgb(250, 171, 237);
+  color: rgb(0, 0, 0);
 }
 #container {
   display: flex;
@@ -29,27 +32,36 @@ h1{
   align-items: center;
   justify-content: space-around;
   border: 2px solid black;
-  background-image: url(https://th.bing.com/th/id/OIP.F_FwmSTz-ExI3XTQ6Pil5gHaEK?pid=ImgDet&rs=1);
-  opacity: 1;
-  background-blend-mode: multiply;
+  background-image: linear-gradient(75deg, rgb(236, 236, 219), rgb(248, 205, 205) , rgb(236, 234, 235));
 }
 body{
   background:whitesmoke;
 }   
 #save-btn{
   border: 2px solid black;
+  border-radius: 5px;
   padding: 6px 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 400;
   color: white;
   background-color: rgb(93, 93, 236);
-  width: 100%;
+  width: 50%;
+}
+#save-btn:hover{ 
+  background-color: white;
+  color: blue;
+  transition: 0.1s;
 }
 #greetings-el{
   color: rgb(32, 32, 36);
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: bold;
   font-size: 20px;
   text-align: center
 }
-
+#save-el{
+  color: rgb(14, 13, 13);
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
