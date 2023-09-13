@@ -80,8 +80,8 @@ console.log(100 + "100")
 
 let welcomeEl = document.getElementById("greetings-el");
 let userName = "Umer Alam";
-let rndmtext = "Welcome back ";
-let greetingsforuser = rndmtext + " " + userName ;
-welcomeEl.innerText = greetingsforuser;
+let duasalam = "Welcome back ";
+welcomeEl.innerText = duasalam + userName ;
 
 
+welcomeEl 
