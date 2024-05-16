@@ -20,4 +20,5 @@ To deploy this project run
 
 ## 🚀 About Me
 I'm  a student learning web development.
+Skills : HTML , CSS and JS .
 
