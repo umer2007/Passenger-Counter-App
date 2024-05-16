@@ -1,7 +1,7 @@
 
 # Passenger  Counter App
 
-This is my repo for many other projects but for now i have my first JavaScript app ("Passenger Counter App"). In this app my basic skill have been applied.
+Its a passenger counter app , helps you to save the count of passengers passing by in any transport station..
 
 
 ## Deployment
